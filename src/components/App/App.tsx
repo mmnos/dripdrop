@@ -1,13 +1,14 @@
 import React from 'react';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { Main } from '../Main';
 import './App.css';
 
 export const App = () => {
-  console.log('inside app');
+  const queryClient = new QueryClient();
+
   return (
-    <div className="bg-blue-300 p-5">
-      <h1 className="text-3xl font-bold">DripDrop</h1>
-      <input name="myInput" />
-      <button>Hello</button>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <Main />
+    </QueryClientProvider>
   );
 };
