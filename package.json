@@ -12,7 +12,6 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\" --config ./.prettierrc.json",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "lint:fix": "eslint --fix \"src/**/*.{ts,tsx}\"",
-    "test": "react-scripts test",
     "update:packages": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
