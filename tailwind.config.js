@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         'dd-light-blue': '#E3F4FE',
       },
+      spacing: {
+        'dd-view-height': '90vh',
+      },
     },
     fontFamily: {
       bangers: ['Bangers', 'sans-serif'],
