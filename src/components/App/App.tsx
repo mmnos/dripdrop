@@ -8,6 +8,7 @@ export const App = () => {
     defaultOptions: {
       queries: {
         refetchOnWindowFocus: false,
+        staleTime: 60000,
       },
     },
   });

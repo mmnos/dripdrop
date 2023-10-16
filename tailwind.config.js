@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'dd-light-blue': '#E3F4FE',
+        'dd-header-bottom-border': '#19C3FB',
       },
       spacing: {
         'dd-view-height': '90vh',
